@@ -1,0 +1,22 @@
+{
+  "name": "authorization-governed-vault",
+  "version": "1.0.0",
+  "description": "Secure multi-contract vault system with authorization-based withdrawals",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "node": "hardhat node"
+  },
+  "keywords": ["ethereum", "vault", "authorization", "smart-contracts"],
+  "author": "Lavanya Kanaka",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.18.0",
+    "ethers": "^6.7.0",
+    "chai": "^4.3.8"
+  },
+  "dependencies": {}
+}
